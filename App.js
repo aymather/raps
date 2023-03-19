@@ -1,6 +1,5 @@
 import React from 'react'
-import Sound from 'react-native-sound'
-import HapticFeedback from 'react-native-haptic-feedback'
+import CustomImage from './src/CustomImage'
 import {
 	StyleSheet,
 	View,
@@ -12,31 +11,6 @@ import {
 	TouchableOpacity
 } from 'react-native'
 
-Sound.setCategory('Playback')
-
-const CustomImage = ({ imageName, name }) => {
-
-	const button = () => {
-		console.log(name)
-		sound.play()
-		HapticFeedback.trigger('notificationWarning')
-	}
-
-	const sound = new Sound('bark.mp3', Sound.MAIN_BUNDLE, (error) => {
-		if (error) {
-		  	console.log('failed to load the sound');
-		}
-	})
-
-	return (
-		<TouchableOpacity onPress={button}>
-			<Image
-				source={imageName}
-				style={styles.image}
-			/>
-		</TouchableOpacity>
-	)
-}
 
 const Row = ({ children }) => {
 	
@@ -88,11 +62,6 @@ const styles = StyleSheet.create({
 	container: {
 		flex: 1,
 		backgroundColor: 'white'
-	},
-	image: {
-		height: 150,
-		width: 150,
-		borderRadius: 75
 	},
 	row: {
 		flexDirection: 'row',
