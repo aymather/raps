@@ -2,8 +2,40 @@
   "migIndex": 1,
   "data": [
     {
+      "path": "assets/sounds/angrychihua.mp3",
+      "sha1": "bf278efe5a3032587ca918d62cbfbe1d2242164f"
+    },
+    {
       "path": "assets/sounds/bark.mp3",
       "sha1": "611dd2fec3a3c73e11de854ff314f6b3df92e15e"
+    },
+    {
+      "path": "assets/sounds/chihua.mp3",
+      "sha1": "9f021d21e3d38b86bb6f3dff35113445af7f0d90"
+    },
+    {
+      "path": "assets/sounds/corgi.mp3",
+      "sha1": "c72de235757235d6ea70f07873392dd6a706bf67"
+    },
+    {
+      "path": "assets/sounds/golden.mp3",
+      "sha1": "9c4322ffb29ac6c8bc280a409bd5d61869124bfa"
+    },
+    {
+      "path": "assets/sounds/husky.mp3",
+      "sha1": "beca467b07a97ea4ae8f5a4f9591d371165ae589"
+    },
+    {
+      "path": "assets/sounds/samoyed.mp3",
+      "sha1": "5355751c78fe14390d3da59ccadb38a72ed220cd"
+    },
+    {
+      "path": "assets/sounds/shiba.mp3",
+      "sha1": "2a587b0e4ff59e178b7250191f2df4af7406e1c5"
+    },
+    {
+      "path": "assets/sounds/shitzu.mp3",
+      "sha1": "8ba6dc1fddeae438766ee70fed2450d03b4f22f3"
     }
   ]
 }

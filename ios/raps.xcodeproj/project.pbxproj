@@ -15,6 +15,14 @@
 		655C4A754859480389E19DCD /* bark.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5BBE6EF07D4E4E168414070B /* bark.mp3 */; };
 		7699B88040F8A987B510C191 /* libPods-raps-rapsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-raps-rapsTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		F7DCB5B5544249DEBA5BDD7A /* angrychihua.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 825EF2EBA19D4EE483E56B0A /* angrychihua.mp3 */; };
+		0E66BF31C756466A99F60AE2 /* chihua.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 808C53BABCE74B52821DF63B /* chihua.mp3 */; };
+		4D74A52FB33A4B9088122F51 /* corgi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DEE0F973D5F54429A1FD5D1F /* corgi.mp3 */; };
+		E13A49871F7248ADA9BE650E /* golden.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 26A1B840B2CB4619A04F139D /* golden.mp3 */; };
+		03A6F5259D5F41A399376689 /* husky.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C84075B80D943458E45A497 /* husky.mp3 */; };
+		1C2F7886DAED41748B097355 /* samoyed.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3E7F1F00D5C1432E913C6B56 /* samoyed.mp3 */; };
+		A1EA1C5A9C4C445EA3D14116 /* shiba.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAC75FCBA4A645DDA303564E /* shiba.mp3 */; };
+		2F410ADC821348499013F8FB /* shitzu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC9E75AAB9D8412CBC6A0EFA /* shitzu.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +54,14 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = raps/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-raps-rapsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-raps-rapsTests.release.xcconfig"; path = "Target Support Files/Pods-raps-rapsTests/Pods-raps-rapsTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		825EF2EBA19D4EE483E56B0A /* angrychihua.mp3 */ = {isa = PBXFileReference; name = "angrychihua.mp3"; path = "../assets/sounds/angrychihua.mp3"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		808C53BABCE74B52821DF63B /* chihua.mp3 */ = {isa = PBXFileReference; name = "chihua.mp3"; path = "../assets/sounds/chihua.mp3"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DEE0F973D5F54429A1FD5D1F /* corgi.mp3 */ = {isa = PBXFileReference; name = "corgi.mp3"; path = "../assets/sounds/corgi.mp3"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		26A1B840B2CB4619A04F139D /* golden.mp3 */ = {isa = PBXFileReference; name = "golden.mp3"; path = "../assets/sounds/golden.mp3"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9C84075B80D943458E45A497 /* husky.mp3 */ = {isa = PBXFileReference; name = "husky.mp3"; path = "../assets/sounds/husky.mp3"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3E7F1F00D5C1432E913C6B56 /* samoyed.mp3 */ = {isa = PBXFileReference; name = "samoyed.mp3"; path = "../assets/sounds/samoyed.mp3"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EAC75FCBA4A645DDA303564E /* shiba.mp3 */ = {isa = PBXFileReference; name = "shiba.mp3"; path = "../assets/sounds/shiba.mp3"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DC9E75AAB9D8412CBC6A0EFA /* shitzu.mp3 */ = {isa = PBXFileReference; name = "shitzu.mp3"; path = "../assets/sounds/shitzu.mp3"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +118,14 @@
 			isa = PBXGroup;
 			children = (
 				5BBE6EF07D4E4E168414070B /* bark.mp3 */,
+				825EF2EBA19D4EE483E56B0A /* angrychihua.mp3 */,
+				808C53BABCE74B52821DF63B /* chihua.mp3 */,
+				DEE0F973D5F54429A1FD5D1F /* corgi.mp3 */,
+				26A1B840B2CB4619A04F139D /* golden.mp3 */,
+				9C84075B80D943458E45A497 /* husky.mp3 */,
+				3E7F1F00D5C1432E913C6B56 /* samoyed.mp3 */,
+				EAC75FCBA4A645DDA303564E /* shiba.mp3 */,
+				DC9E75AAB9D8412CBC6A0EFA /* shitzu.mp3 */,
 			);
 			name = Resources;
 			path = "";
@@ -257,6 +281,14 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				655C4A754859480389E19DCD /* bark.mp3 in Resources */,
+				F7DCB5B5544249DEBA5BDD7A /* angrychihua.mp3 in Resources */,
+				0E66BF31C756466A99F60AE2 /* chihua.mp3 in Resources */,
+				4D74A52FB33A4B9088122F51 /* corgi.mp3 in Resources */,
+				E13A49871F7248ADA9BE650E /* golden.mp3 in Resources */,
+				03A6F5259D5F41A399376689 /* husky.mp3 in Resources */,
+				1C2F7886DAED41748B097355 /* samoyed.mp3 in Resources */,
+				A1EA1C5A9C4C445EA3D14116 /* shiba.mp3 in Resources */,
+				2F410ADC821348499013F8FB /* shitzu.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

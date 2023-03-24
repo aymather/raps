@@ -8,14 +8,14 @@ import {
 
 Sound.setCategory('Playback')
 
-const CustomImage = ({ imageName, name }) => {
+const CustomImage = ({ imageName, name, rapsSound }) => {
 
 	const button = () => {
 		sound.play()
 		HapticFeedback.trigger('notificationWarning')
 	}
 
-	const sound = new Sound('bark.mp3', Sound.MAIN_BUNDLE, (error) => {
+	const sound = new Sound(rapsSound, Sound.MAIN_BUNDLE, (error) => {
 		if (error) {
 		  	console.log('failed to load the sound');
 		}
